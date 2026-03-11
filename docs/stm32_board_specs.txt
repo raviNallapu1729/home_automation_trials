@@ -1,0 +1,90 @@
+STM32 IoT Development Board Specifications
+==========================================
+
+DEVICE NAME:
+- STMicroelectronics STM32 Discovery/Development Board
+- Appears to be an STM32 IoT Discovery Kit (B-L475E-IOT01A or similar)
+
+MICROCONTROLLER:
+- STM32 ARM Cortex-M4 based MCU
+- Ultra-low-power architecture
+- FPU (Floating Point Unit)
+
+SENSORS & MODULES VISIBLE:
+1. Environmental Sensors:
+   - Temperature sensor
+   - Humidity sensor
+   - Pressure sensor (likely)
+
+2. Motion Sensors:
+   - Accelerometer
+   - Gyroscope
+   - Magnetometer (3-axis MEMS)
+
+3. Proximity/Distance:
+   - Time-of-Flight (ToF) sensor module visible
+
+4. Audio:
+   - Digital microphone (MEMS)
+
+CONNECTIVITY & INTERFACES:
+1. Wireless:
+   - WiFi module (appears to be on left side of board)
+   - Bluetooth Low Energy (BLE) capable
+   - Sub-GHz radio (potential)
+
+2. Wired Interfaces:
+   - USB (Type-C or Micro-USB connector visible)
+   - UART/Serial
+   - I2C
+   - SPI
+   - GPIO headers (multiple rows visible)
+
+3. Display/Output:
+   - LED indicators visible
+   - GPIO expansion headers
+
+4. Programming/Debug:
+   - ST-LINK debugger/programmer (integrated)
+   - SWD interface
+
+CAPABILITIES:
+- IoT prototyping and development
+- Sensor data acquisition and processing
+- Wireless communication (WiFi, BLE)
+- Low-power operation modes
+- Real-time data processing
+- Edge computing/ML inference capable
+- Cloud connectivity ready
+
+POWER:
+- USB powered
+- Battery connector available
+- Power management IC
+
+MEMORY:
+- Flash memory (varies by model, typically 1MB)
+- SRAM (typically 128KB)
+
+DEVELOPMENT ECOSYSTEM:
+- STM32CubeIDE support
+- Arduino IDE compatible
+- Mbed OS support
+- FreeRTOS capable
+- Various middleware libraries (X-CUBE packages)
+
+TYPICAL USE CASES:
+- IoT sensor nodes
+- Environmental monitoring
+- Motion tracking applications
+- Smart home devices
+- Wireless sensor networks
+- Edge AI/ML applications
+
+PHYSICAL:
+- Compact form factor
+- Multiple mounting holes (white standoffs visible)
+- Professional development board layout
+
+NOTE: For exact part numbers and detailed specifications, refer to the
+board markings or STMicroelectronics official documentation.
