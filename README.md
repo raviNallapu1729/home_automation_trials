@@ -2,6 +2,18 @@
 
 Edge-first IoT device that detects pressure cooker whistles and sends Alexa notifications.
 
+## Implementation Status
+
+**✅ Chunk 1: Project Setup and Basic Infrastructure** (COMPLETE)
+- Configuration header (`firmware/Core/Inc/config.h`)
+- Type definitions (`firmware/Core/Inc/types.h`)
+- Audio acquisition interface and stub (`firmware/Core/Inc/audio_acquisition.h`, `firmware/Core/Src/audio_acquisition.c`)
+- Test infrastructure (`tests/`)
+
+**⏭️ Next: Chunk 2 - Whistle Detector Module**
+
+See implementation plan: `docs/superpowers/plans/2026-03-10-cooker-whistle-detector.md`
+
 ## Hardware
 - STM32 IoT Discovery Board (B-L475E-IOT01A)
 - Digital MEMS microphone (onboard)
